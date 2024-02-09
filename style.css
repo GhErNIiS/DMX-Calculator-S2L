@@ -7,6 +7,7 @@
 body {
   background-color: #F2F7F7;
 }
-body header .wrapper {
+body .wrapper {
   width: 572px;
+  background-color: #333;
 }/*# sourceMappingURL=style.css.map */
