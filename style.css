@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #F2F7F7;
+}
+body header .wrapper {
+  width: 572px;
+}/*# sourceMappingURL=style.css.map */
