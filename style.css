@@ -11,6 +11,33 @@ body {
 }
 body .wrapper {
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   background-color: #333;
+}
+body header .title_head {
+  margin-top: 25px;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+body main .wrapper .title_main {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+body main .wrapper .inner_wrap {
+  margin: 0 auto;
+  width: 95%;
+  background-color: #fff;
+}
+body main .wrapper .card_object {
+  display: flex;
+}
+body main .wrapper .card_object :first-child {
+  margin-left: 35px;
+}
+body main .wrapper .card_object input {
+  width: 50px;
+  background-color: #323;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

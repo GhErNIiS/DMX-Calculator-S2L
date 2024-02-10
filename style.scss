@@ -11,11 +11,44 @@ body {
 
     .wrapper {
         margin: 0 auto;
-        width: 80%;
+        width: 90%;
         background-color: #333;
     }
 
     header {
-        
+        .title_head {
+            margin-top: 25px;
+            font-size: 28px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+
+    main {
+        .wrapper {
+            
+            .title_main {
+                display: flex;
+                justify-content: space-around;
+                font-size: 20px;
+            }
+            .inner_wrap {
+                margin: 0 auto;
+                width: 95%;
+                background-color: #fff;
+            }
+            .card_object {
+                display: flex;
+                // justify-content: space-around;
+                :first-child {
+                    margin-left: 35px;
+                }
+                input {
+                    width: 50px;
+                    background-color: #323;
+                    color: #fff
+                }
+            }
+        }
     }
 }
